@@ -1,0 +1,15 @@
+pandas
+numpy
+scipy
+scikit-learn
+xgboost
+shap
+matplotlib
+plotly
+networkx
+joblib
+python-dotenv
+requests
+pytest
+jupyter
+ipykernel
