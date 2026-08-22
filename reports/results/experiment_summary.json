@@ -1,0 +1,36 @@
+{
+  "dataset": "UNSW-NB15",
+  "evaluation_protocol": "official pre-partitioned training and testing sets",
+  "official_train_rows": 175341,
+  "official_test_rows": 82332,
+  "dataset_columns": 45,
+  "label_column": "label",
+  "model_feature_count_before_encoding": 42,
+  "excluded_target_leakage_feature": "attack_cat",
+  "models_evaluated": [
+    "xgboost",
+    "random_forest",
+    "logistic_regression"
+  ],
+  "best_model": "xgboost",
+  "best_model_metrics": {
+    "model": "xgboost",
+    "accuracy": 0.8760992080843415,
+    "precision": 0.824128577491558,
+    "recall": 0.9852201535339274,
+    "f1": 0.8975031399145943,
+    "roc_auc": 0.9845287351456283,
+    "pr_auc": 0.988621843368253
+  },
+  "risk_category_counts": {
+    "HIGH": 52524,
+    "LOW": 22698,
+    "MODERATE": 7110
+  },
+  "decision_priority_counts": {
+    "P2": 52524,
+    "P4": 22698,
+    "P3": 7110
+  },
+  "research_note": "Model metrics are produced from the official UNSW-NB15 test set. Risk thresholds and Decision Intelligence weights are prototype settings and are not validated industry standards."
+}

@@ -52,3 +52,4 @@ data/processed/*
 # Temporary files
 *.tmp
 *.temp
+reports/results/decision_outputs.csv

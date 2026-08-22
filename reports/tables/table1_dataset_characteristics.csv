@@ -1,0 +1,13 @@
+split,metric,value
+official_train,rows,175341
+official_train,columns,45
+official_train,missing_cells,0
+official_train,duplicate_rows,0
+official_train,benign_rows,56000
+official_train,attack_rows,119341
+official_test,rows,82332
+official_test,columns,45
+official_test,missing_cells,0
+official_test,duplicate_rows,0
+official_test,benign_rows,37000
+official_test,attack_rows,45332
